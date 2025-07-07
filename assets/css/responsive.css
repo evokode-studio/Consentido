@@ -1,0 +1,21 @@
+/*VARIABLES*/
+:root {
+  --mx-width: 1320px;
+  --color-title: #292930;
+  --color-subtitle: #c75c6f;
+  --color-text-body: #525260;
+  --color-description: #99A1AA;
+  --color-primary: #5956E9;
+  --color-secondary: #fff;
+  --color-banner: #2522BA;
+  --color-text-btn: #3d6efd;
+  --color-bg-btn: #ffdc60;
+  --color-bg-cards: #f8f8f8;
+  --color-bg-projects: #EBF1F5;
+  --color-bg-dark: #27272E;
+  --color-hover-dark: #303015;
+  --color-borders: #dadada;
+
+}
+
+

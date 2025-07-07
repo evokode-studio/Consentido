@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta para configurar el viewport y que sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Cargar Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/dmsans/dmsans.css">
+    <link rel="stylesheet" href="./assets/fonts/PlayFair/playfair.css">
+    <!--Cargar Estilos-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!--<link rel="stylesheet" href="./assets/css/dark.css">-->
+    <!--Cargar JS-->
+    <script src="./assets/js/copy-email.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+    <script src="./assets/js/reviews.js"></script>
+    <script src="./assets/js/animation.js"></script>
+    <script src="./assets/js/faq-toggle.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <!-- Título único y descriptivo -->
+    <title>Consentido Brands | Cristy de la Torre</title>
+
+    <!-- Meta descripción para motores de búsqueda -->
+    <meta name="description" content="Tu marca esta en nuestras manos">
+    <!-- Palabras clave (menos usadas hoy, pero pueden ayudar) -->
+    <meta name="keywords" content="Branding con Alma">
+
+    <!-- Autor -->
+    <meta name="author" content="Erik Vigil López">
+
+    <!-- Enlace al favicon -->
+    <link rel="icon" href="./assets/img/consentido-iso.png" type="image/x-icon">
+
+    <!-- Etiquetas sociales para mejorar la apariencia al compartir en redes -->
+    <meta property="og:title" content="Develop Erik Vigil">
+    <meta property="og:description" content="Realizamos diseños profesionales, potentes y precisos">
+    <meta property="og:image" content="https://evokode-studio.github.io/Develop/assets/img/logo1.png">
+    <meta property="og:url" content="https://evokode-studio.github.io/Develop/">
+    <meta property="og:type" content="website">
+
+    <!--Twitter Cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Consentido Brands">
+    <meta name="twitter:description" content="Branding con Alma">
+    <meta name="twitter:image" content="https://evokode-studio.github.io/Develop/assets/img/logo1.png">
+
+</head>
+
+<body>
+    <!--Sello de cera-->
+    <a href="">
+        <img class="consentido__mark" src="./assets/img/consentido-mark.png" alt="Mark">
+    </a>
+    <!--Sombra debajo-->
+    <div class="scroll-fade-bottom"></div>
+    <!--ESTRUCTURA DEL LAYOUT-->
+    <div class="layout">
+        <!--ESTRUCTURA DEL HOME-->
+        <section class="layout__home">
+            <div class="home__top">
+                <div class="home__idioms">
+                    <button class="idioms__btn idioms__btn-active">Eng</button>
+                    <button class="idioms__btn ">Esp</button>
+                </div>
+                <ul class="home__hsocial">
+                    <li class="hsocial__item">
+                        <a href="" class="hsocial__link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="hsocial__item">
+                        <a href="https://www.instagram.com/consentido.brands/" class="hsocial__link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="hsocial__item">
+                        <a href="" class="hsocial__link">
+                            <i class="fa-brands fa-behance"></i>
+                        </a>
+                    </li>
+                    <li class="hsocial__item">
+                        <a href="" class="hsocial__link">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="home__header">
+                <p class="home__header-title">
+                    <span class="home__header-con">con</span><span class="home__header-sentido">sentido</span>
+                </p>
+                <div class="home__subtitle-svg">
+                    <h2 class="mask-writing">Branding con alma</h2>
+                </div>
+            </div>
+
+            <div class="home__bottom">
+                <div class="home__name">
+                    <h4 class="home__author">Created by Cristina de la Torre</h4>
+                </div>
+                <div class="home__name">
+                    <h4 class="home__author" id="emailText">consetido.branding@gmail.com</h4>
+                    <i class="fa-regular fa-clone" id="copyIcon"></i>
+                </div>
+                <div class="home__name">
+                    <h4 class="home__author">TRC. MX.</h4>
+                </div>
+
+            </div>
+
+        </section>
+        <!--ESTRUCTURA DEL WELCOME-->
+        <section class="layout__welcome">
+            <div class="welcome__left">
+                <div class="welcome__left-text">
+                    <p class="welcome__title"><span class="welcome__title-span">Wel</span>come</p>
+                    <div class="welcome__rating">
+                        <i class="fa-solid fa-star welcome__star"></i>
+                        <i class="fa-solid fa-star welcome__star"></i>
+                        <i class="fa-solid fa-star welcome__star"></i>
+                        <i class="fa-solid fa-star welcome__star"></i>
+                        <i class="fa-solid fa-star welcome__star"></i>
+                    </div>
+                    <p class="welcome__description">Me siento afortunado de haber confiado en Consentido. <br> Calido,
+                        Profesional, Impactante.</p>
+                    <p class="welcome__client">-Luxe & Co.</p>
+                    <br>
+                    <p class="welcome__softwares">Elevating brands with <span class="welcome_italic">excellence</span>
+                    </p>
+                    <ul class="welcome__list">
+                        <li class="welcome__item">
+                            <img class="welcome__img" src="./assets/img/no-bg-carousel/astro-no-bg.png" alt="">
+                        </li>
+                        <li class="welcome__item">
+                            <img class="welcome__img" src="./assets/img/no-bg-carousel/il-no-bg.png" alt="">
+                        </li>
+                        <li class="welcome__item">
+                            <img class="welcome__img" src="./assets/img/no-bg-carousel/consentido-no-bg.png" alt="">
+                        </li>
+                        <li class="welcome__item">
+                            <img class="welcome__img" src="./assets/img/no-bg-carousel/astro-no-bg.png" alt="">
+                        </li>
+                        <li class="welcome__item">
+                            <img class="welcome__img" src="./assets/img/no-bg-carousel/il-no-bg.png" alt="">
+                        </li>
+                        <li class="welcome__item">
+                            <img class="welcome__img" src="./assets/img/no-bg-carousel/consentido-no-bg.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="welcome__right">
+                <div class="welcome__img-author">
+                    <img class="welcome__image1" src="./assets/img/consentido-author-open.png" alt="">
+                    <img class="welcome__image2" src="./assets/img/consentido-author-closed.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!--ESTRUCTURA DEL ABOUT CS-->
+        <section class="layout__about">
+            <div class="about__container">
+
+                <div class="about__aleft">
+                    <div class="aleft__container">
+                        <h2 class="aleft__title"><span class="section__title-span">So</span>bre <br><span
+                                class="section__title-span">con</span>sentido</h2>
+                        <p class="aleft__description">Si quieres un branding con propósito, que realmente refleje el
+                            valor de tu negocio… hablemos.<br>
+                            Escríbeme y trabajemos juntos en el branding que tu negocio necesita.
+                        </p>
+                        <a href="#contact" class="about__contact"><span class="about__contact-span">con</span>tacto</a>
+                    </div>
+
+                </div>
+                <div class="about__aright">
+                    <div class="aright__container">
+                        <img src="./assets/img/inolvidable.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ESTRUCTURA DEL PROJECTS-->
+        <section class="layout__projects">
+            <div class="fade-in-section">
+                <div class="section__header">
+                    <div class="section__line"></div>
+                    <h1 class="section__title"><span class="section__title-span">pro</span>yectos</h1>
+                    <div class="section__line"></div>
+                </div>
+            </div>
+
+            <div class="fade-in-section">
+                <div class="projects__carousel js-carousel">
+                    <ul class="projects__list js-carousel-list">
+                        <li class="projects__project">
+                            <a class="project__link" href="">
+                                <img class="project__img" src="./assets/img/project1 (1).png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                                <h5 class="project__name">Iniciativa Legal</h5>
+                                <h5 class="project__type">Estudio Juridico</h5>
+                            </div>
+                        </li>
+                        <li class="projects__project">
+                            <a class="project__link" href="">
+                                <img class="project__img" src="./assets/img/project1 (2).png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                                <h5 class="project__name">Muara</h5>
+                                <h5 class="project__type">Construcción</h5>
+                            </div>
+                        </li>
+                        <li class="projects__project">
+                            <a class="project__link" href="">
+                                <img class="project__img" src="./assets/img/project1 (3).png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                                <h5 class="project__name">Grupo VEM</h5>
+                                <h5 class="project__type">Arquitectura</h5>
+                            </div>
+                        </li>
+                        <li class="projects__project">
+                            <a class="project__link" href="">
+                                <img class="project__img" src="./assets/img/project1 (4).png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <h5 class="project__name">Hugo Romario</h5>
+                                <h5 class="project__type">Branding Personal</h5>
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                            </div>
+                        </li>
+                        <li class="projects__project">
+                            <a class="project__link" href="./project-mm.html">
+                                <img class="project__img" src="./assets/img/project1 (5).png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                                <h5 class="project__name">M M</h5>
+                                <h5 class="project__type">Construcción y Habilitado</h5>
+                            </div>
+                        </li>
+                        <li class="projects__project">
+                            <a class="project__link" href="">
+                                <img class="project__img" src="./assets/img/project6.png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                                <h5 class="project__name">Treats </h5>
+                                <h5 class="project__type">Reposteria Artesanal</h5>
+                            </div>
+                        </li>
+                        <li class="projects__project">
+                            <a class="project__link" href="">
+                                <img class="project__img" src="./assets/img/project7.png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                                <h5 class="project__name">GYL</h5>
+                                <h5 class="project__type">Hair Salon</h5>
+                            </div>
+                        </li>
+                        <li class="projects__project">
+                            <a class="project__link" href="">
+                                <img class="project__img" src="./assets/img/project8.png" alt="">
+                            </a>
+                            <div class="project__info">
+                                <img class="project__logo" src="./assets/img/consentido-iso.png" alt="">
+                                <h5 class="project__name">Astro Ingenieria</h5>
+                                <h5 class="project__type">Mantenimiento e Ingenieria</h5>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <!--ESTRUCTURA DEL SERVICES-->
+        <section class="layout__services">
+            <div class="section__header fade-in-section">
+                <div class="section__line"></div>
+                <h1 class="section__title"><span class="section__title-span">ser</span>vicios</h1>
+                <div class="section__line"></div>
+            </div>
+            <div class="services__grid">
+
+                <!-- Columna Izquierda -->
+                <div class="services__side-column">
+                    <div class="services__info services__info-1"></div>
+                    <div class="services__info services__info-2"></div>
+                </div>
+
+                <!-- Columna Centro Izquierda -->
+                <div class="services__column">
+                    <div class="services__info services__info-3"></div>
+                    <div class="services__info services__info-4"></div>
+                    <div class="services__info services__info-5"></div>
+                </div>
+
+                <!-- Columna Centro Central (destacada) -->
+                <div class="services__column services__column--featured">
+                    <div class="services__info services__info-6"></div>
+                    <div class="services__info services__info-7"></div>
+                    <div class="services__info services__info-8"></div>
+                </div>
+
+                <!-- Columna Centro Derecha -->
+                <div class="services__column">
+                    <div class="services__info services__info-9"></div>
+                    <div class="services__info services__info-10"></div>
+                    <div class="services__info services__info-11"></div>
+                </div>
+
+                <!-- Columna Derecha -->
+                <div class="services__side-column">
+                    <div class="services__info services__info-12"></div>
+                    <div class="services__info services__info-13"></div>
+                </div>
+
+            </div>
+        </section>
+        <!--ESTRUCTURA DEL REVIEWS-->
+        <section class="layout__reviews">
+            <div class="section__header fade-in-section">
+                <div class="section__line"></div>
+                <h1 class="section__title"><span class="section__title-span">re</span>views</h1>
+                <div class="section__line"></div>
+            </div>
+            <div class="reviews__carousel">
+                <ul class="reviews__list">
+
+                    <li class="reviews__review">
+
+                        <img class="review__img" src="./assets/img/WhatsApp-bg.jpeg" alt="">
+
+                        <div class="review__info">
+                            <div class="review__contact">
+                                <i class="fa-solid fa-arrow-left review__icon"></i>
+                                <div class="review__author">
+                                    <img class="review__author-img" src="./assets/img/default-user-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <h4 class="review__author-name">Erik Vigil</h4>
+                                <i class="fa-solid fa-video review__icon"></i>
+                                <i class="fa-solid fa-phone review__icon"></i>
+                                <i class="fa-solid fa-ellipsis-vertical review__icon"></i>
+
+                            </div>
+                            <div class="review__message">
+                                <h6 class="review__msg">Gracias Cristy!! Haces muy bonito trabajo!!</h6>
+                                <h6 class="review__hour">12:27 pm</h6>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="reviews__review">
+
+                        <img class="review__img" src="./assets/img/WhatsApp-bg.jpeg" alt="">
+
+                        <div class="review__info">
+                            <div class="review__contact">
+                                <i class="fa-solid fa-arrow-left review__icon"></i>
+                                <div class="review__author">
+                                    <img class="review__author-img" src="./assets/img/default-user-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <h4 class="review__author-name">Erik Vigil</h4>
+                                <i class="fa-solid fa-video review__icon"></i>
+                                <i class="fa-solid fa-phone review__icon"></i>
+                                <i class="fa-solid fa-ellipsis-vertical review__icon"></i>
+
+                            </div>
+                            <div class="review__message">
+                                <h6 class="review__msg">Muchas gracias Cristy!! siempre muy bien todo lo que haces
+                                    muchas gracias por todo</h6>
+                                <h6 class="review__hour">8:42 am</h6>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="reviews__review">
+
+                        <img class="review__img" src="./assets/img/WhatsApp-bg.jpeg" alt="">
+
+                        <div class="review__info">
+                            <div class="review__contact">
+                                <i class="fa-solid fa-arrow-left review__icon"></i>
+                                <div class="review__author">
+                                    <img class="review__author-img" src="./assets/img/default-user-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <h4 class="review__author-name">Erik Vigil</h4>
+                                <i class="fa-solid fa-video review__icon"></i>
+                                <i class="fa-solid fa-phone review__icon"></i>
+                                <i class="fa-solid fa-ellipsis-vertical review__icon"></i>
+
+                            </div>
+                            <div class="review__message">
+                                <h6 class="review__msg">Hola Cristy<br> Solo te escribo para decirte que estoy feliz con
+                                    tu trabajo!!<br>Ame cada logo, color tipografia, gracias, por ponerle tu alma a mi
+                                    diseño!!<br>Un abrazo grande!!</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="reviews__review">
+
+                        <img class="review__img" src="./assets/img/WhatsApp-bg.jpeg" alt="">
+
+                        <div class="review__info">
+                            <div class="review__contact">
+                                <i class="fa-solid fa-arrow-left review__icon"></i>
+                                <div class="review__author">
+                                    <img class="review__author-img" src="./assets/img/default-user-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <h4 class="review__author-name">Erik Vigil</h4>
+                                <i class="fa-solid fa-video review__icon"></i>
+                                <i class="fa-solid fa-phone review__icon"></i>
+                                <i class="fa-solid fa-ellipsis-vertical review__icon"></i>
+
+                            </div>
+                            <div class="review__message">
+                                <h6 class="review__msg">Hola Cristy, que me encanto el diseño</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">quiero decirte que te la bañaste</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">Adoro la M y todo lo que hiciste</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">simplemente magnifico</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="reviews__review">
+
+                        <img class="review__img" src="./assets/img/WhatsApp-bg.jpeg" alt="">
+
+                        <div class="review__info">
+                            <div class="review__contact">
+                                <i class="fa-solid fa-arrow-left review__icon"></i>
+                                <div class="review__author">
+                                    <img class="review__author-img" src="./assets/img/default-user-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <h4 class="review__author-name">Erik Vigil</h4>
+                                <i class="fa-solid fa-video review__icon"></i>
+                                <i class="fa-solid fa-phone review__icon"></i>
+                                <i class="fa-solid fa-ellipsis-vertical review__icon"></i>
+
+                            </div>
+                            <div class="review__message">
+                                <h6 class="review__msg">Hola Cristy, buenos dias</h6>
+                                <h6 class="review__hour">8:41 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">quiero decirte que... te la bañaste</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">me fascinaron los logos</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">las aplicaciones</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+                            <div class="review__message">
+                                <h6 class="review__msg">la paleta de color</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">la M , todo</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                            <div class="review__message">
+                                <h6 class="review__msg">te la pero bañaste</h6>
+                                <h6 class="review__hour">8:43 am</h6>
+                            </div>
+
+                        </div>
+                    </li>
+
+
+
+
+                </ul>
+
+            </div>
+
+        </section>
+        <!--ESTRUCTURA DEL PROCESS-->
+        <section class="layout__process">
+            <div class="fade-in-section">
+                <div class="section__header">
+                    <div class="section__line"></div>
+                    <h1 class="section__title animate-title">
+                        <span class="section__title-span">pro</span>ceso
+                    </h1>
+                    <div class="section__line"></div>
+                </div>
+                <h4 class="section__subtitle">Conoce cómo llevamos tus ideas a la realidad</h4>
+            </div>
+
+            <div class="process__cards">
+                <div class="process__card animate-on-scroll" data-delay="0">
+                    <div class="process__number">1</div>
+                    <div class="process__img"><img class="process__image" src="./assets/img/process/process- (1).png"
+                            alt="imagen-proceso"></div>
+                    <h3 class="process__title">Exploración</h3>
+                    <p class="process__desc">Nos reunimos contigo para entender tus objetivos, identidad y necesidades.
+                    </p>
+                </div>
+
+                <div class="process__card animate-on-scroll" data-delay="1">
+                    <div class="process__number">2</div>
+                    <div class="process__img"><img class="process__image" src="./assets/img/process/process- (2).png"
+                            alt="imagen-proceso"></div>
+                    <h3 class="process__title">Diseño</h3>
+                    <p class="process__desc">Creamos soluciones visuales estratégicas alineadas a tu marca.</p>
+                </div>
+
+                <div class="process__card animate-on-scroll" data-delay="2">
+                    <div class="process__number">3</div>
+                    <div class="process__img"><img class="process__image" src="./assets/img/process/process- (3).png"
+                            alt="imagen-proceso"></div>
+                    <h3 class="process__title">Entrega</h3>
+                    <p class="process__desc">Finalizamos tu proyecto con calidad profesional, listo para brillar.</p>
+                </div>
+            </div>
+        </section>
+        <!--ESTRUCTURA DE LAS FAQ-->
+        <section class="layout__faq fade-in-section">
+            <div class="section__header">
+                <div class="section__line"></div>
+                <h1 class="section__title"><span class="section__title-span">pre</span>guntas <span
+                        class="section__title-span">fre</span>cuentes</h1>
+                <div class="section__line"></div>
+            </div>
+            <h3 class="faq__subtitle">Dudas y sugerencias</h3>
+            <div class="faq__content fade-in-section">
+
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <span>¿Cómo puedo contratar tus servicios?</span>
+                        <i class="fa-solid fa-chevron-down faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        Puedes contactarme por correo o Instagram. Agendamos una llamada y definimos tus necesidades
+                        exactas.
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <span>¿Cuánto tiempo tarda un proyecto promedio?</span>
+                        <i class="fa-solid fa-chevron-down faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        Depende de la complejidad, pero en promedio entrego entre 1 y 2 semanas después de tener toda la
+                        información.
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <span>¿Incluyes dominio y hosting?</span>
+                        <i class="fa-solid fa-chevron-down faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        Es opcional. Puedes contratarlo por tu cuenta o dejar que yo lo gestione por ti con costo
+                        adicional.
+                    </div>
+                </div>
+
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <span>¿Qué pasa si no sé qué estilo quiero?</span>
+                        <i class="fa-solid fa-chevron-down faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        No te preocupes, te ayudo con inspiración visual y referencias para descubrirlo juntos. ¡Lo
+                        hacemos fácil!
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ESTRUCTURA DEL CONTACT-->
+        <section  id="contact" class="layout__contact">
+            <div class="contact__cleft">
+                <div class="section__header">
+                    <div class="section__line"></div>
+                    <h1 class="section__title"><span class="section__title-span">Let´s</span><span
+                            class="section__title-span"> con</span>nect</h1>
+                    <div class="section__line"></div>
+
+                </div>
+                <h3 class="faq__subtitle">Let´s create something amazing together! Reach out <br>I´d love to hear about
+                    your proyect and ideas.</h3>
+
+                <div class="contact__address">
+                    <div class="contact__location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="contact__locale">Address</p>
+                    </div>
+                    <p class="contact__description">Blvd. Constitución. Torreón, Coahuila(MX), 27000</p>
+                </div>
+
+
+            </div>
+            <div class="contact__cright">
+                <form class="contact__form">
+                    <input class="contact__info" type="text" placeholder="Name">
+                    <input class="contact__info" type="email" placeholder="Email">
+                    <input class="contact__info contact__info-message" type="text" placeholder="Message">
+
+                    <div class="contact__where">
+                        <p class="contact__send">Send to:</p>
+                        <button id="btnWhatsapp" class="contact__submit" title="Enviar por WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                        <button id="btnGmail" class="contact__submit" title="Enviar por Gmail">
+                            <i class="fa-solid fa-envelope"></i>
+                        </button>
+                        <button id="btnMailto" class="contact__submit" title="Abrir en app de correo">
+                            <i class="fa-brands fa-windows"></i>
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <!--ESTRUCTURA DEL FOOTER-->
+        <footer class="footer">
+            <div class="footer__top section">
+                <form class="footer__subscribe">
+                    <label for="email">Join our waitlist for early access to Consentido services.</label>
+                    <div class="footer__input-wrapper">
+                        <input type="email" id="email" placeholder="Email" required />
+                        <button type="submit">→</button>
+                    </div>
+                </form>
+
+                <div class="footer__links">
+                    <div>
+                        <h4>Company</h4>
+                        <ul class="footer__links-info">
+                            <li ><a href="#">Mission</a></li>
+                            <li class="footer__links-info"><a href="#">Vision</a></li>
+                            <li class="footer__links-info"><a href="#">Values</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Articles</h4>
+                        <ul>
+                            <li class="footer__links-info"><a href="#">How Real Branding is Done</a></li>
+                            <li class="footer__links-info"><a href="#">Minimalism: Less is More</a></li>
+                            <li class="footer__links-info"><a href="#">Barroco Branding?</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Social</h4>
+                        <ul class="footer__social">
+                            <li><a href="https://www.instagram.com/consentido.brands/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="footer__bg-text"><span class="footer__bg-italic">con</span>sentido</span>
+
+        </footer>
+        <div class="footer__bottom">
+            <div class="footer__legal">
+                <p>© 2025 Consentido</p>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy + Cookies</a>
+            </div>
+        </div>
+
+    </div>
+</body>
